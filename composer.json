@@ -1,0 +1,25 @@
+{
+    "name": "vluzrmos/lumen-http-host",
+    "description": "A fixer for console and tests using Lumen Url Generator.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vagner do Carmo",
+            "email": "vluzrmos@gmail.com"
+        }
+    ],
+    "autoload":{
+        "files":[
+            "helpers.php"
+        ]
+    },
+    "require-dev": {
+        "laravel/lumen-framework":"~5.0",
+        "phpunit/phpunit":"~4.0"
+    },
+    "config":{
+        "preferred-install":"dist"
+    },
+    "minimum-stability": "dev"
+}

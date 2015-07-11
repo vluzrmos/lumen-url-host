@@ -1,0 +1,8 @@
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+.env
+/vendor
+.idea/
+.php_cs.cache
+tmp[a-zA-Z0-9]{6,99}

@@ -1,5 +1,11 @@
 # Lumen Url Host Fixer.
 
+[![Latest Stable Version](https://poser.pugx.org/vluzrmos/lumen-url-host/version)](https://packagist.org/packages/vluzrmos/lumen-url-host) 
+[![Total Downloads](https://poser.pugx.org/vluzrmos/lumen-url-host/downloads)](https://packagist.org/packages/vluzrmos/lumen-url-host)
+[![License](https://poser.pugx.org/vluzrmos/lumen-url-host/license)](https://packagist.org/packages/vluzrmos/lumen-url-host)
+[![Build Status](https://travis-ci.org/vluzrmos/lumen-url-host.svg)](https://travis-ci.org/vluzrmos/lumen-url-host)
+[![StyleCI](https://styleci.io/repos/38911597/shield)](https://styleci.io/repos/38911597)
+
 A fixer to Lumen Url Generator.
 
 ## What is it for?

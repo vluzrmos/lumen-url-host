@@ -1,9 +1,8 @@
 <?php
 
-use \Laravel\Lumen\Testing\TestCase;
 use \Laravel\Lumen\Application;
 
-class HttpHostTest extends TestCase
+class HttpHostTest extends PHPUnit_Framework_TestCase
 {
     /**
      * Url Generator.
@@ -12,12 +11,20 @@ class HttpHostTest extends TestCase
     protected $url;
 
     /**
+     * Lumen Application.
+     * 
+     * @var Application
+     */
+    protected $app;
+
+    /**
      * Setup the tests.
      */
     public function setUp()
     {
         parent::setUp();
 
+        $this->app = $this->createApplication();
         $this->url = $this->app->make('url');
     }
 

@@ -24,7 +24,7 @@ composer require vluzrmos/lumen-url-host
 Run 1 time:
 
 ```php
-lumenHttpHost('your-disered.domain:port');
+lumenUrlHost('your-disered.domain:port');
 ```
 
 > Note: By default, lumen will cache the hostname and port at first call.

@@ -1,5 +1,5 @@
 {
-    "name": "vluzrmos/lumen-http-host",
+    "name": "vluzrmos/lumen-url-host",
     "description": "A fixer for console and tests using Lumen Url Generator.",
     "type": "package",
     "license": "MIT",
